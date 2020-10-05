@@ -1,0 +1,1043 @@
+Enchantments:
+  Glowing: #Enchantment
+    Enabled: False #Wither or not an enchantment is active
+    Name: 'Nightvision' #The in-game name of the enchantment
+    Color: '&e' #The color of the enchantment on the item
+    BookColor: '&e' #The color of the enchantment on the book
+    MaxPower: 3 #Max lvl the enchantment goes up to
+    Info: #Info for the enchantment
+      Name: '&eNightvision (I-III)' #Name for the GUI
+      Description: #The description of what it does
+        - '&6Type: &7Helmets'
+        - '&6Description: &7Gives night vision when equipped'
+    Categories: #All the categories the Enchantment can be found in
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  BurnShield:
+    Enabled: True
+    Name: 'Shields'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eShields (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives fire resistance when they are put on'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Piercing:
+    Enabled: True
+    Name: 'Piercing'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&ePiercing (I-III)'
+      Description:
+        - '&6Type: &7Bows'
+        - '&6Description: &7Has a chance to deal double the damage'
+    Categories:
+      - 'T2'
+      - 'T3'
+  OverLoad:
+    Enabled: True
+    Name: 'Overload'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eOverload (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives health boost when equipped'
+    Categories:
+      - 'T3'
+  SelfDestruct:
+    Enabled: True
+    Name: 'Selfdestruct'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eSelf Destruct (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7When you die you will explode'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Springs:
+    Enabled: True
+    Name: 'Springs'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eSprings (I-III)'
+      Description:
+        - '&6Type: &7Boots'
+        - '&6Description: &7Gives small jump boost when equipped'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Gears:
+    Enabled: True
+    Name: 'Gears'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eGears (I-III)'
+      Description:
+        - '&6Type: &7Boots'
+        - '&6Description: &7Gives a speed boost when equipped'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Hulk:
+    Enabled: False
+    Name: 'Hulk'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eHulk (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives Strength, Damage Resistance, and Slowness when equipped'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Mermaid:
+    Enabled: True
+    Name: 'Mermaid'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eMermaid (I-III)'
+      Description:
+        - '&6Type: &7Helmet'
+        - '&6Description: &7Gives no drown effect when equipped'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Ninja:
+    Enabled: True
+    Name: 'Ninja'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eNinja (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives speed and health boost when equipped'
+    Categories:
+      - 'T3'
+  Vampire:
+    Enabled: True
+    Name: 'Vampire'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eVampire (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to heal you by 1 heart'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  LifeSteal:
+    Enabled: True
+    Name: 'LifeSteal'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eLifesteal (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to steal health from opponent'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Doctor:
+    Enabled: True
+    Name: 'Doctor'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eDoctor (I-III)'
+      Description:
+        - '&6Type: &7Bow'
+        - '&6Description: &7Has a chance to heal you when hit'
+    Categories:
+      - 'T3'
+  Boom:
+    Enabled: False
+    Name: 'Boom'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eBoom (I-III)'
+      Description:
+        - '&6Type: &7Bow'
+        - '&6Description: &7Has a chance to spawn TNT when the arrow lands'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Venom:
+    Enabled: True
+    Name: 'Venom'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eVenom (I-III)'
+      Description:
+        - '&6Type: &7Bow'
+        - '&6Description: &7Has a chance to give the opponent poison effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  DoubleDamage:
+    Enabled: True
+    Name: 'Damage'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eDamage (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to deal double damage'
+    Categories:
+      - 'T2'
+      - 'T3'
+  SlowMo:
+    Enabled: False
+    Name: 'SlowMo'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eSlowMo (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent slowness effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Blindness:
+    Enabled: True
+    Name: 'Blindness'
+    Color: '&e'
+    BookColor: '&e'
+    MaxPower: 3
+    Info:
+      Name: '&eBlindness (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent blindess effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Viper:
+    Enabled: True
+    Name: 'Viper'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aViper (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent poison effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  AntiGravity:
+    Enabled: True
+    Name: 'Moonwalk'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aMoonwalk (I-III)'
+      Description:
+        - '&6Type: &7Boots'
+        - '&6Description: &7Gives a stronger jump boost when equipped'
+    Categories:
+      - 'T2'
+      - 'T3'
+  FastTurn:
+    Enabled: False
+    Name: 'Quickdrop'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aQuickdrop (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to deal x3 more damage'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  LightWeight:
+    Enabled: True
+    Name: 'Haste'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aHaste (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give you haste effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Blessed:
+    Enabled: True
+    Name: 'Silenced'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aSilenced (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to remove all bad potion effects'
+    Categories:
+      - 'T3'
+  FeedMe:
+    Enabled: True
+    Name: 'Autofeed'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aAutofeed (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to feed you while fighting'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Dizzy:
+    Enabled: True
+    Name: 'Dizzy'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aDizzy (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to give your opponent confusion effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Berserk:
+    Enabled: False
+    Name: 'Berserk'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aBerserk (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to give you strength and mining fatigue effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Cursed:
+    Enabled: True
+    Name: 'Cursed'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aCursed (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to give your opponent mining fatigue'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Rekt:
+    Enabled: False
+    Name: 'Rekt'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aRekt (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to deal x amount of damage'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Enlightened:
+    Enabled: True
+    Name: 'Enlightened'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aEnlightened (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to heal you while being attacked'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Freeze:
+    Enabled: True
+    Name: 'Vortex'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aVortex (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Decription: &7Has a chance to give your attacker slowness'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Fortify:
+    Enabled: True
+    Name: 'Achilles'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aAchilles (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to give your attacker weakness'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Molten:
+    Enabled: True
+    Name: 'Hail'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aHail (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to set your attacker on fire'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  PainGiver:
+    Enabled: True
+    Name: 'Pain'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aPain (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to give your attacker posion'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Savior:
+    Enabled: True
+    Name: 'Savior'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aSavior (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to cut your incoming damage in half'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Nursery:
+    Enabled: True
+    Name: 'Nursery'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aNursery (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to heal you while walking'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  AutoSmelt:
+    Enabled: True
+    Name: 'Smelting'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Info:
+      Name: '&aSmelting (I-III)'
+      Description:
+        - '&6Type: &7Pickaxe'
+        - '&6Description: &7Has a chance to auto smelt ores and give you x2 more ingots'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Experience:
+    Enabled: True
+    Name: 'Experience'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bExperience (I-III)'
+      Description:
+        - '&6Type: &7Pickaxe'
+        - '&6Description: &7Has a chance to give double more xp from mining'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Telepathy:
+    Enabled: True
+    Name: 'Telepathy'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bTelepathy (I-III)'
+      Description:
+        - '&6Type: &7Tool'
+        - '&6Description: &7Will automatically send mined items to your inventory'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Haste:
+    Enabled: True
+    Name: 'Ravenous'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bRavenous (I-III)'
+      Description:
+        - '&6Type: &7Tools'
+        - '&6Description: &7Gives haste when holding a tool in your hand'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Oxygenate:
+    Enabled: False
+    Name: 'Oxygenate'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bOxygenate (I-III)'
+      Description:
+        - '&6Type: &7Tools'
+        - '&6Description: &7Gives water breathing when holding a tool in your hand'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  IceFreeze:
+    Enabled: True
+    Name: 'Freezer'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bFreezer (I-III)'
+      Description:
+        - '&6Type: &7Bow'
+        - '&6Description: &7Has a chance to give your opponent a frozen box'
+    Categories:
+      - 'T3'
+  Lightning:
+    Enabled: True
+    Name: 'Lightning'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bLightning (I-III)'
+      Description:
+        - '&6Type: &7Bow'
+        - '&6Description: &7Has a chance to strike lighting where your arrow lands'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Decapitation:
+    Enabled: False
+    Name: 'Decapitation'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bDecapitation (I-III)'
+      Description:
+        - '&6Type: &7Axe'
+        - '&6Description: &7Has a chance to drop your opponents head on death'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Confusion:
+    Enabled: True
+    Name: 'Confusion'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bConfusion (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent confusion effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Disarmer:
+    Enabled: True
+    Name: 'Disarmor'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bDisarmor (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to take a random piece of armor off your opponent'
+    Categories:
+      - 'T3'
+  Execute:
+    Enabled: True
+    Name: 'Execute'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bExecute (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to get strength when opponent is low on health'
+    Categories:
+      - 'T3'
+  Headless:
+    Enabled: False
+    Name: 'Headless'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bHeadless (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to drop players head on death'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Inquisitive:
+    Enabled: True
+    Name: 'Inquisitive'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cInquisitive (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Will double XP based on enchantment level'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Insomnia:
+    Enabled: False
+    Name: 'Insomnia'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bInsomnia (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives confusion, mining fatigue, and slowness'
+        - '&7has a high chance of doing double the damage'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Nutrition:
+    Enabled: True
+    Name: 'Nutrition'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bNutrition (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to feed you while fighting'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Obliterate:
+    Enabled: True
+    Name: 'Obliterate'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bObliterate (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to send your opponent flying backwords'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Paralyze:
+    Enabled: True
+    Name: 'Paralyze'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bParalyze (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent mining fatigue and slowness'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  SkillSwipe:
+    Enabled: True
+    Name: 'Stolen'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bStolen (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to steal xp from opponent while fighting'
+    Categories:
+      - 'T3'
+  Snare:
+    Enabled: False
+    Name: 'Snare'
+    Color: '&b'
+    BookColor: '&b'
+    MaxPower: 3
+    Info:
+      Name: '&bSnare (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent slowness and fatigue'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Trap:
+    Enabled: True
+    Name: 'Trap'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cTrap (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent high slowness'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Wither:
+    Enabled: True
+    Name: 'Wither'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cWither (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Has a chance to give your opponent wither effect'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Rage:
+    Enabled: True
+    Name: 'Rage'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cRage (I-III)'
+      Description:
+        - '&6Type: &7Sword'
+        - '&6Description: &7Attacks will get stronger as long as you keep attacking'
+    Categories:
+      - 'T3'
+  Valor:
+    Enabled: True
+    Name: 'Valor'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cValor (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives damage resistance based on enchantment level'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  SmokeBomb:
+    Enabled: False
+    Name: 'SmokeBomb'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cSmoke Bomb (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to Blind and Slow your attacker so you can escape'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Drunk:
+    Enabled: False
+    Name: 'Drunk'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cDrunk (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Gives strength, mining fatigue, and slowness when equipped'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Voodoo:
+    Enabled: False
+    Name: 'Voodoo'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cVoodoo (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to give your attacker weakness'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  MultiArrow:
+    Enabled: True
+    Name: 'MultiArrow'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cMultiArrow (I-III)'
+      Description:
+        - '&6Type: &7Bow'
+        - '&6Description: &7Has a chance to shoot multiple arrows at once'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Recover:
+    Enabled: True
+    Name: 'Recovery'
+    Color: '&c'
+    BookColor: '&c'
+    MaxPower: 3
+    Info:
+      Name: '&cRecovery (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7When you kill a player you get absorption and regeneration'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Cactus:
+    Enabled: True
+    Name: 'Thorns'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Thorns (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to damage the player who damages you'
+    Categories:
+      - 'T3'
+  Rocket:
+    Enabled: False
+    Name: 'Rocket'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Rocket (I-III)'
+      Description:
+        - '&6Type: &7Boots'
+        - '&6Description: &7If low on health there is a chance you will blast backwords to escape'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Angel:
+    Enabled: True
+    Name: 'Angel'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Angel (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Heals near by Faction Members when equipped'
+    Categories:
+      - 'T3'
+  HellForged:
+    Enabled: False
+    Name: 'HellForged'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 4
+    Info:
+      Name: '&6HellForged (I-III)'
+      Description:
+        - '&6Type: &7All Armor, Weapons, Tools'
+        - '&6Description: &3Has a chance to fix up your items as you walk'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Commander:
+    Enabled: True
+    Name: 'Commander'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Commander (I-III)'
+      Description:
+        - '&6Type: &7Helmet'
+        - '&6Description: &7Gives nearby Faction Members haste when equipped'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  StormCaller:
+    Enabled: True
+    Name: 'Thor'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Thor (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Has a chance to strike your enemy down with a lighting strike'
+    Categories:
+      - 'T2'
+      - 'T3'
+  Leadership:
+    Enabled: True
+    Name: 'Alliance'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Alliance (I-III)'
+      Description:
+        - '&6Type: &7Armor'
+        - '&6Description: &7Your attacks are stronger when you have allies around you'
+    Categories:
+      - 'T3'
+  Implants:
+    Enabled: True
+    Name: 'Implants'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Implants (I-III)'
+      Description:
+        - '&6Type: &7Helmet'
+        - '&6Description: &7While moving your hunger will start going up while equipped'
+    Categories:
+      - 'T1'
+      - 'T2'
+      - 'T3'
+  Wings:
+    Enabled: False
+    Name: 'Wings'
+    Color: '&6'
+    BookColor: '&6'
+    MaxPower: 3
+    Info:
+      Name: '&6Wings (I-III)'
+      Description:
+        - '&6Type: &7Boots'
+        - '&6Description: &7Allows you to fly in your own territory and gives particles effect'
+    Categories:
+      - 'T3'
